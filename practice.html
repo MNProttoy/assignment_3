@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Tags</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+<h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter>
+
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+
+<p>WWF's goal is to:
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+
+<p>WWF's goal is to:
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+
+<ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby>
+
+<ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+
+<ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+
+<p><s>Only 50 tickets left!</s></p>
+<p>SOLD OUT!</p>
+
+<p>Message from my computer:</p>
+
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p>
+
+<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+<video width="320" height="240" controls>
+  <source src="forrest_gump.mp4" type="video/mp4">
+  <source src="forrest_gump.ogg" type="video/ogg">
+  <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+</video>
+
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/python/">Python</a>
+</nav>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<table>
+  <tr>
+    <td>Cell A</td>
+    <td>Cell B</td>
+  </tr>
+  <tr>
+    <td>Cell C</td>
+    <td>Cell D</td>
+  </tr>
+</table>
+
+<html>
+<head>
+<style>
+  h1 {color:red;}
+  p {color:blue;}
+</style>
+</head>
+<body>
+
+<h1>A heading</h1>
+<p>A paragraph.</p>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div>
+
+</body>
+</html>
+
+<article>
+  <header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+
+<embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
+
+<embed type="text/html" src="snippet.html" width="500" height="200">
+
+<embed type="video/webm" src="video.mp4" width="400" height="300">
+
+<object data="horse.wav">
+  <param name="autoplay" value="true">
+</object>
+
+<a href="/images/myw3schoolsimage.jpg" download>
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+<a href="https://www.w3schools.com" hreflang="en">W3Schools</a>
+
+<a href="att_a_media.asp?output=print"
+media="print and (resolution:300dpi)">
+Open media attribute page for print.</a>
+
+<a href="https://www.w3schools.com/html" ping="https://www.w3schools.com/trackpings">
+
+<a href="https://www.w3schools.com" referrerpolicy="origin">
+
+<a rel="nofollow" href="http://www.functravel.com/">Cheap Flights</a>
+
+<a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+
+<map name="planetmap">
+<area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+<area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+<area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+</map>
+
+<map name="planetmap">
+<area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+<area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+<area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+</map>
+
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls loop>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls muted>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<audio controls preload="none">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio src="horse.ogg" controls>
+Your browser does not support the audio element.
+</audio>
+
+<p>Hello world. <bdo dir="rtl">Hello world</bdo></p>
+
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <button type="submit">Submit</button>
+  <button type="submit" formaction="/action_page2.php">Submit to another page</button>
+</form>
+
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid">
+
+	<canvas id="myCanvas" width="200" height="200" style="border:1px solid">
+
+<dialog open>This is an open dialog window</dialog>
+
+<embed type="image/jpg" src="pic_trulli.jpg">
+
+<form action="/action_page.php" method="get">
+  <fieldset name="personalia">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname">
+  </fieldset>
+  <br>
+  <button type="button"
+  onclick="form.personalia.style.backgroundColor='yellow'">
+  Change background color of fieldset</button>
+  <input type="submit">
+</form>
+
+<form action="/action_page.php" accept-charset="utf-8">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+</body>
+
+</html>
+
+<iframe src="demo_iframe_sandbox.htm" sandbox></iframe>
+
+<img src="/w3images/wedding.jpg" alt="Wedding" style="width:100%">
+<img src="/w3images/rocks.jpg" alt="Rocks" style="width:100%">
+
+<!-- off-screen images -->
+<img src="/w3images/paris.jpg" alt="Paris" style="width:100%" loading="lazy">
+<img src="/w3images/nature.jpg" alt="Nature" style="width:100%" loading="lazy">
+<img src="/w3images/underwater.jpg" alt="Underwater" style="width:100%" loading="lazy">
+<img src="/w3images/ocean.jpg" alt="Ocean" style="width:100%" loading="lazy">
+<img src="/w3images/mountainskies.jpg" alt="Mountains" style="width:100%" loading="lazy">
+
+<link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+
+<p><label for="anna">Anna's score:</label>
+<meter id="anna" min="0" low="40" high="90" max="100" value="95"></meter></p>
+
+<p><label for="peter">Peter's score:</label>
+<meter id="peter" min="0" low="40" high="90" max="100" value="65"></meter></p>
+
+<p><label for="linda">Linda's score:</label>
+<meter id="linda" min="0" low="40" high="90" max="100" value="35"></meter></p>
+
+<ol reversed>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+</body>
+</html>
